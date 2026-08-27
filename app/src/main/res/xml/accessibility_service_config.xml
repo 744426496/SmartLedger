@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    微信账单自动导入无障碍服务配置：
+     - canRetrieveWindowContent：读取当前窗口节点，用于自动点击「我-服务-钱包-账单」
+     - canPerformGestures：模拟上滑手势滚动账单列表
+     - canTakeScreenshot：截取每屏账单画面（需用户在无障碍服务详情页确认开启「截屏」）
+    仅在本应用发起导入请求时工作；截图只用于本应用内 OCR，不上传。
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:canPerformGestures="true"
+    android:canTakeScreenshot="true"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="100" />

@@ -1,0 +1,24 @@
+*.iml
+.gradle
+.kotlin
+/local.properties
+/.idea
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 签名密钥：不入库（构建时缺失自动回退 AGP 默认 debug 签名）
+keystores/
+
+# 反编译/索引缓存（调查用，非项目源码）
+jarsrch/
+
+# 构建产物：APK 通过 GitHub Release 发布，不进仓库
+*.apk
+*.aab
+
+# 账单样本 fixture 一律放 test/resources 下统一管理，随仓库维护

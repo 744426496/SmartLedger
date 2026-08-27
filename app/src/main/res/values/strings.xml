@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">鲸鱼记账</string>
+    <string name="widget_description">在桌面查看日/周/月收支总览</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_add">记一笔</string>
+    <string name="tab_overview">总览</string>
+    <string name="wechat_import_service_label">鲸鱼记账-微信/支付宝账单自动导入</string>
+    <string name="accessibility_service_description">鲸鱼记账的微信/支付宝账单自动导入服务：自动打开微信/支付宝并跳转账单页，滚动截取账单长图后识别入账。截图仅用于本应用内识别，不会上传。</string>
+</resources>
